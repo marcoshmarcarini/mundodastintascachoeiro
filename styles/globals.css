@@ -1,0 +1,84 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+/*====== Minha Personalização ========*/
+body{
+    background-color: #6c5ce7;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.txt-inicial{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+.contatos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #ffffff;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+.link{
+    margin: 20px;
+    background-color: #a29bfe;
+    box-shadow: 2px 2px #5758BB;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.link:hover{
+    background-color: #5758BB;
+    box-shadow: 2px 2px #000000;
+    transition: all 400ms;
+}
+.redes-sociais{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 5px;
+    padding: 5px;
+}
+.area-links-redes{
+    margin: 5px;
+}
+.link-social{
+    margin: 5px;
+}
+.footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+.txt-footer{
+    color: #ffffff;
+    margin-right: 5px;
+    margin-left: auto;
+    text-align: center;
+}
+.img-footer{
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+
