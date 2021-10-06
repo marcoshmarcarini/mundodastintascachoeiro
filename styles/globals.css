@@ -8,7 +8,7 @@
 body{
     background-color: #6c5ce7;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:auto;
 }
 .logo{
     display: flex;
@@ -16,21 +16,20 @@ body{
     align-content: center;
     align-items: center;
 }
-
+/*
 .img-logo{
     animation: rodar 4s infinite linear;
 }
 
 @keyframes rodar {
     from{
-        transform: rotate(0deg)
+        transform: rotate(0deg);
     }
     to{
         transform: rotate(360deg);
     }
 }
-
-
+*/
 
 .txt-inicial{
     color: #ffffff;
