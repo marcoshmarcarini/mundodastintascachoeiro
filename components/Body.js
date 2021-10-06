@@ -6,7 +6,7 @@ function Conteudo (){
             <div className="md:container mx-auto">
                     <div className="container">
                         <div className="logo mt-20">
-                            <Image src="/images/lg.svg" width={100} height={100} />
+                            <Image src="/images/lg.svg" width={100} height={100} className="img-logo" />
                         </div>
                         <div className="txt-inicial mt-10">
                             <p>Entre em contato com nossas <br/> lojas pelos números abaixo.</p>
